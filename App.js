@@ -33,12 +33,13 @@ export default function App() {
         </TouchableOpacity>
       </View>
       <ScrollView style={styles.data_list_section}>
-        <Text>List Of Goals...</Text>
+        <Text>List Of Goals</Text>
         <View style={styles.space_divider_horizontal}></View>
         <PrintVisualGoalList goalList={goals} />
       </ScrollView>
     </View>
   );
+
 }
 
 function NullOrWhitespace(str){
