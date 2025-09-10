@@ -103,13 +103,14 @@ const styles = StyleSheet.create({
   },
   goal_list_item:{
     height: 38,
-    width:'100%',
+    width:'95%',
     backgroundColor:'#eeeeee',
     borderSize: 1,
     borderColor:'#cccccc',
-    padding:8,
+    padding:10,
     borderRadius:6,
     marginTop:10,
+    marginHorizontal: 8,
     //iOS
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
